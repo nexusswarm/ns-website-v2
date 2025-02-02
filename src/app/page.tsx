@@ -8,10 +8,9 @@ export default function Home() {
       </div>
       <div className="grid min-h-screen items-center justify-items-center border border-red-700 font-[family-name:var(--font-geist-sans)]">
         <TestinomialsDis/>
-      </div>
-      <div className="grid min-h-screen items-center justify-items-center border border-red-700 font-[family-name:var(--font-geist-sans)]">
         <Footer/>
       </div>
+
     </>
   );
 }
