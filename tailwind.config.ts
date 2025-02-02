@@ -51,6 +51,16 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        blob: {
+          "1": "hsl(var(--blob-1))",
+          "2": "hsl(var(--blob-2))",
+          "3": "hsl(var(--blob-3))",
+        },
+        gradient: {
+          "1": "hsl(var(--gradient-1))",
+          "2": "hsl(var(--gradient-2))",
+          "3": "hsl(var(--gradient-3))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
