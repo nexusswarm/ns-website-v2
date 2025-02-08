@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-// import GetStarted from "./GetStarted";
+import GetStarted from "./GetStarted";
 import Link from "next/link";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center items-center pt-20 pb-8">
+    <div className="w-full flex flex-col justify-center items-center pt-20 pb-8" id="contact">
       <GetStarted />
       <div className="flex flex-col sm:flex-row flex-wrap pt-20 w-full justify-between px-8 sm:px-16 lg:px-24 gap-12">
         
@@ -74,6 +74,10 @@ const Footer = () => {
           </form>
         </div>
       </div>
+<div className="text-[#D29BAE]/50 text-center pt-8 font-semibold">
+All rights reserved &copy; {new Date().getFullYear()} NEXUS Swarm
+</div>
+
     </div>
   );
 };
