@@ -21,7 +21,7 @@ export default function Home() {
         <a
           key={item}
           href={`#${item.toLowerCase().replace(" ", "")}`}
-          className="tracking-wide font-bold text-white hover:underline hover:decoration-2 hover:underline-offset-8"
+          className="tracking-wide font-bold text-white hover:underline hover:decoration-2 hover:underline-offset-8 hover:text-yellow-500 transition-all duration-300 ease-in-out"
         >
           {item}
         </a>
@@ -29,40 +29,40 @@ export default function Home() {
     </nav>
   </div>
 
-  {/* Hero Section */}
   <div className="grid w-full grid-cols-1 sm:grid-cols-2 items-center py-10">
     <div className="flex flex-col gap-6 sm:gap-10 px-4 sm:px-10 lg:px-20">
       <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold">
         <p className="from-gradient-1 to-gradient-2 inline-block bg-gradient-to-r bg-clip-text text-transparent">
           NEXUS Swarm:
         </p>
-        Empowering Student Innovators
+          Empowering Student Innovators
       </h1>
+      <div className="sm:hidden flex justify-center">
+      <Image src="/hero2.svg" width={500} height={500} alt="hero" className="w-full max-w-[400px] lg:max-w-[500px]" />
+    </div>
       <p className="text-lg sm:text-xl">
-        Empowering students to innovate, lead, and make an impact – that’s the NEXUS Swarm way.
+          Empowering students to innovate, lead, and make an impact - that s the NEXUS Swarm way.
       </p>
       <div className="flex flex-wrap gap-4 sm:gap-6">
         <Button
           variant="outline"
-          className="border-blob-1 bg-blob-2 rounded-full px-6 sm:px-10 py-3 sm:py-4 text-lg sm:text-xl font-bold hover:bg-transparent"
+          className="border-blob-1 bg-blob-2 rounded-full px-6 sm:px-10 py-6 sm:py-8 text-lg sm:text-xl font-bold hover:bg-transparent"
         >
           JOIN US
         </Button>
         <Button
           variant="outline"
-          className="border-blob-1 hover:bg-blob-2 rounded-full px-6 sm:px-10 py-3 sm:py-4 text-lg sm:text-xl font-bold"
+          className="border-blob-1 hover:bg-blob-2 rounded-full px-6 sm:px-10 py-6 sm:py-8 text-lg sm:text-xl font-bold"
         >
           EXPLORE MORE
         </Button>
       </div>
     </div>
-    {/* Hero Image */}
     <div className="hidden sm:flex justify-center">
       <Image src="/hero2.svg" width={500} height={500} alt="hero" className="w-full max-w-[400px] lg:max-w-[500px]" />
     </div>
   </div>
 
-  {/* Community Partners */}
   <div className="w-full flex flex-col items-center gap-6 py-10 px-4 sm:px-10 lg:px-40">
     <h2 className="text-xl font-bold text-center">COMMUNITY PARTNERS</h2>
     <div className="w-full max-w-4xl">
