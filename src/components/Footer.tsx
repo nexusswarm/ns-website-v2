@@ -11,6 +11,8 @@ const Footer = () => {
   };
 
   return (
+    <>
+   
     <div className="w-full flex flex-col justify-center items-center pt-20 pb-8" id="contact">
       <GetStarted />
       <div className="flex flex-col sm:flex-row flex-wrap pt-20 w-full justify-between px-8 sm:px-16 lg:px-24 gap-12">
@@ -79,6 +81,8 @@ All rights reserved &copy; {new Date().getFullYear()} NEXUS Swarm
 </div>
 
     </div>
+<div className="w-full h-5 bg-gradient-to-br from-[#E7B467] to-[#D29BAE] rounded-tl-xl rounded-tr-xl"></div>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import React from 'react';
 const GetStarted = () => {
   return (
     <div className='w-full lg:w-[60%] p-4'>
-      <div className='bg-gradient-to-br from-[#E7B467] to-[#D29BAE] py-8 w-full flex flex-col rounded-[60px] justify-center items-center gap-10 text-center'>
+      <div className='bg-gradient-to-br from-[#E7B467] to-[#D29BAE] py-8  w-full flex flex-col rounded-[60px] justify-center items-center gap-10 text-center'>
         <h2 className='uppercase font-bold text-2xl tracking-[0.4rem] text-black'>
           Are you ready?
         </h2>
