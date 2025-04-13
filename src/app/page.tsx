@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import TestimonialCard from "@/components/TestimonialCard";
+// import TestimonialCard from "@/components/TestimonialCard";
 import TestinomialsDis from "@/components/TestinomialsDis";
 import Footer from "@/components/Footer";
 import Hero2 from "@/components/Hero2";

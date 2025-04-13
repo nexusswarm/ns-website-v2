@@ -4,9 +4,9 @@ import GetStarted from "./GetStarted";
 import Link from "next/link";
 
 const Footer = () => {
-  const [subMail, setSubMail] = React.useState("");
+  const setSubMail = React.useState("")[1];
 
-  const subscribe = (e: any) => {
+  const subscribe = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
 
