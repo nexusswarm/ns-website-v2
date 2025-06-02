@@ -13,6 +13,7 @@ const Footer = () => {
   return (
     <>
    
+    <div id="footer">
     <div className="w-full flex flex-col justify-center items-center pt-20 pb-8" id="contact">
       <GetStarted />
       <div className="flex flex-col sm:flex-row flex-wrap pt-20 w-full justify-between px-8 sm:px-16 lg:px-24 gap-12">
@@ -33,7 +34,7 @@ const Footer = () => {
                 <Link href="#about">About</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
-                <Link href="">Join Us</Link>
+                <Link href="https://www.linkedin.com/company/nexus-swarm/posts/?feedView=all">Join Us</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
                 <Link href="">Know More</Link>
@@ -46,7 +47,7 @@ const Footer = () => {
                 <Link href="mailto:">Email</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
-                <Link href="">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/company/nexus-swarm/posts/?feedView=all">LinkedIn</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
                 <Link href="">Instagram</Link>
@@ -82,6 +83,7 @@ All rights reserved &copy; {new Date().getFullYear()} NEXUS Swarm
 
     </div>
 <div className="w-full h-5 bg-gradient-to-br from-[#E7B467] to-[#D29BAE] rounded-tl-xl rounded-tr-xl"></div>
+    </div>
     </>
   );
 };
