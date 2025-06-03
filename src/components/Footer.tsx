@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href="https://www.linkedin.com/company/nexus-swarm/posts/?feedView=all">Join Us</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
-                <Link href="">Know More</Link>
+                <Link href="#home">Know More</Link>
               </li>
             </ul>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Link href="https://www.linkedin.com/company/nexus-swarm/posts/?feedView=all">LinkedIn</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
-                <Link href="">Instagram</Link>
+                <Link href="https://www.instagram.com/nexus_swarm/">Instagram</Link>
               </li>
               <li className="hover:text-[#D29BAE]">
                 <Link href="">Twitter</Link>
